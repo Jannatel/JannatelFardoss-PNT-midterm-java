@@ -1,0 +1,38 @@
+package beginnerjava;
+
+import java.util.Scanner;
+
+public class PyramidPattern {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		int row, col, n;
+		
+		
+		
+		System.out.print("Enter N = ");
+		
+		n = input.nextInt();
+		
+		
+		for(row = 1; row<=n; row++) {
+			System.out.println();
+			
+			// printing space
+			
+			for (col = 1; col<=n-row; col++)
+				System.out.print(" ");
+			
+			//printing star
+			
+			for (col=1; col<=row;col++);
+			
+			System.out.print("* ");
+			
+		}
+		
+	}
+
+}

@@ -1,0 +1,35 @@
+package array_demo;
+
+import java.util.ArrayList;
+ 
+public class ArrayListDemo1 {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<Integer> number = new ArrayList<Integer>();
+
+		System.out.println("size = "+ number.size());
+		
+		
+		// Adding elements
+		// .add method using
+		
+		number.add(10);
+		number.add(20);
+		number.add(30);
+		// adding elememts value with index number
+		number.add(3,40);
+		
+		//System.out.println(number);
+		
+		// for each loop
+		
+		for(int x: number) {
+			System.out.print(" " +x);
+		}
+		
+		System.out.println("size = "+ number.size());
+	}
+
+}

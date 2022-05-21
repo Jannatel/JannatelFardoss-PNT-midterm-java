@@ -1,0 +1,15 @@
+package array_demo;
+
+import java.util.ArrayList;
+ 
+public class ArrayListDemo1 {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<Integer> number = new ArrayList<Integer>();
+
+		System.out.println("size = "+ number.size());
+	}
+
+}
